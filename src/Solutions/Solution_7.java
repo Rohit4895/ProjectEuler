@@ -13,7 +13,7 @@ public class Solution_7 {
 		 * What is the 10 001st prime number?
 		 */
 		
-		int count = 1, n=3, result=0;
+		int count = 0, n=2, result=0;
 		boolean prime = true;
 		
 		while (count < 10001) {
