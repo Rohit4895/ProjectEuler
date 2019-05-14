@@ -19,7 +19,7 @@ public class Solution_16 {
         int result=0, additionOfResult;
         
         for(int i=0; i<numberOfInputs; i++) {
-            result = (int) Math.pow(2, inputs[i]);
+            result = Math.round((float)Math.pow(2, inputs[i]));
             additionOfResult=0;
             while (result != 0) {
                 additionOfResult += result%10;
